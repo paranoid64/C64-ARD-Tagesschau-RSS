@@ -12,4 +12,3 @@ Version 1.5.1
   Wenn man das Programm ohne Wic64 Portal startet, kommt man ins Basic zurück.
 
 + Tasten wurden entprellt
-
