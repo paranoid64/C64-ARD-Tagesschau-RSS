@@ -6,6 +6,10 @@ Sie https://www.wic64.de/ für die Ersteinrichtung.
 
 Im Release kann das fertige PRG runtergeladen werden, dies muss nur auf den C64 übertragen werden.
 
+YouTube Demo:
+https://www.youtube.com/watch?v=0tEC8y20XpE
+
+
 Version 1.5.1
 
 + Exit Funktion. Befindet man sich im Wic64 Portal kommt man nun auch wieder ins Wic64 portal zurück.
