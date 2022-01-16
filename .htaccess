@@ -1,0 +1,17 @@
+#Options +FollowSymLinks
+RewriteEngine On
+ 
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^n ./nn.php
+RewriteRule ^n/ ./nn.php
+RewriteRule ^n/(\d+)*$ ./nn.php?v=$1 [L,QSA]
+
+RewriteRule ^d ./nm.php
+RewriteRule ^d/ ./nm.php
+RewriteRule ^d/(\d+)*$ ./nm.php?v=$1 [L,QSA]
+
+RewriteRule ^m ./nm.php
+RewriteRule ^m/ ./nm.php
+RewriteRule ^m/(\d+)*$ ./nm.php?v=$1 [L,QSA]
