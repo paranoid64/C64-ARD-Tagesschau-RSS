@@ -314,13 +314,13 @@ printdone:
 ;    bne wait
 ;    rts
 
-cmd00   !text "W",$23,$00,$01,"http://c64.lama-creation.de/m/" ; Start!byte W + len low!byte 26 + len high!byte 00 (0026) + command $01 httpget www...
+cmd00   !text "W",$23,$00,$01,"http://c64.domain.de/m/" ; Start!byte W + len low!byte 26 + len high!byte 00 (0026) + command $01 httpget www...
 page    !byte $31
         !byte $00
      
-cmdx    !text "W",$23,$00,$01,"http://c64.lama-creation.de/d/x"
+cmdx    !text "W",$23,$00,$01,"http://c64.domain.de/d/x"
         !byte $00 
-cmd1x   !text "W",$24,$00,$01,"http://c64.lama-creation.de/d/1x"
+cmd1x   !text "W",$24,$00,$01,"http://c64.domain.de/d/1x"
         !byte $00                
               
 text:         !text $9E,$12,"ARD TAGESCHAU 1.5.1  ",$92,$0d 
